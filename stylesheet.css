@@ -4,8 +4,9 @@ html {
 
 h1 {
   font-weight: bold;
-  https://static.miraheze.org/snapwikiwiki/0/06/Snap_wiki_logo2.png
+  color: white;
 }
+
 h1::selection {
   color: red;
 }
@@ -19,5 +20,9 @@ p::selection {
 }
 
 body {
-  color: black;
+  background-color: black;
+}
+
+a::selection {
+  color: #1d3863;
 }
