@@ -1,0 +1,23 @@
+html {
+  font-family: Arial, 'sans-serif';
+}
+
+h1 {
+  font-weight: bold;
+  https://static.miraheze.org/snapwikiwiki/0/06/Snap_wiki_logo2.png
+}
+h1::selection {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+p::selection {
+  color: yellow;
+}
+
+body {
+  color: black;
+}
