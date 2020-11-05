@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', fetcher());
 function fetcher() {
-    fetch('/status.json')
+    fetch('status.json')
     .then(response => response.json())
     .then(data => {
         const count = data.status;
