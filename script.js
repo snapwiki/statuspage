@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', fetcher());
 function fetcher() {
-    fetch('https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/users/R4356th/messages/count')
+    fetch('/status.json')
     .then(response => response.json())
     .then(data => {
         const count = data.status;
